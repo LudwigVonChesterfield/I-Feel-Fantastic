@@ -13,6 +13,14 @@ a {
 	justify-content: space-between;
 }
 
+@media only screen
+	and (max-width: 50em)
+{
+	.container {
+		flex-direction: column;
+	}
+}
+
 .container div {
 	width: 100%;
 	padding: 5px;
