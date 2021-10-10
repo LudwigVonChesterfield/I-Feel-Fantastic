@@ -70,10 +70,18 @@ a {
 	text-align: right;
 }
 
-a.hidden {
+a.hidden-link {
 	text-decoration: none;
 }
-a.hidden:hover {
+a.hidden-link:hover {
 	text-decoration: underline;
 	color #F1DAC4;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.hidden:hover {
+	visibility: visible;
 }
